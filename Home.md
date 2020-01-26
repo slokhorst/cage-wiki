@@ -1,6 +1,8 @@
-<p align="center">
-  Welcome to the Cage wiki!
-</p>
+<h2 align="center">Welcome to the Cage wiki!</h1>
+
+This wiki contains documentation to run Cage. For general Wayland-related questions, such as how to set a wallpaper or take screenshots, please see [Sway's wiki](https://github.com/swaywm/sway/wiki).
+
+# What is Cage?
 
 Cage is a kiosk compositor for Wayland. A kiosk is a window manager (in the X11 world) or compositor (in the Wayland world) that is designed for a user experience wherein user interaction and activities outside the scope of the running application are prevented. That is, a kiosk compositor displays a single maximized application at a time and prevents the user from interacting with anything but this application.
 
