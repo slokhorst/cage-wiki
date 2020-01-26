@@ -1,1 +1,1 @@
-![Cage logo](https://www.hjdskes.nl/img/projects/cage/cage.svg)
+![Cage's logo](https://www.hjdskes.nl/img/projects/cage/cage.svg)
