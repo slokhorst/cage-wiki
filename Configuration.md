@@ -2,7 +2,7 @@ Before reading this and opening issues, please keep in mind that Cage is *not* a
 
 # Configuration
 
-There is no configuration for Cage, other than command line arguments on startup (see `-h`) and a limited number of environment variables (see below). To start Cage, simply call its binary with the path to the application you want to launch within the session. For example, use `cage /usr/bin/epiphany` to launch Cage with the Epiphany web browser. To pass arguments to the application, separate it from Cage's arguments with `--`: `cage -- /usr/bin/epiphany -i`.
+There is no configuration for Cage, other than command line arguments on startup (see `-h`) and a limited number of environment variables (see below). To start Cage, simply call its binary with the path to the application you want to launch within the session. For example, use `cage /usr/bin/epiphany` to launch Cage with the Epiphany web browser. To pass arguments to the application, separate it from Cage's arguments with two dashes: `cage -- /usr/bin/epiphany -i`.
 
 ## Display configuration
 
