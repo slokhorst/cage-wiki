@@ -1,6 +1,7 @@
 Cage may be packaged for your distribution, see [repology](https://repology.org/project/cage/packages). This should be your preferred way to install Cage, unless that version is old or you need a newer feature not yet packaged.
 
-To build Cage from source, you can grab [a release](https://github.com/Hjdskes/cage/releases/). The release specifies which version of wlroots it should be built against. Alternatively, you can grab the latest master branch from [GitHub](https://github.com/Hjdskes/cage). Note that Cage is developed against the latest tag of wlroots, in order to not constantly chase breaking changes as soon as they occur.
+To build Cage from source, you can grab [a release](https://github.com/Hjdskes/cage/releases/). The release specifies which version of wlroots it should be built against. Releases are signed with
+[6EBC43B1](http://keys.gnupg.net/pks/lookup?op=vindex&fingerprint=on&search=0x37C445296EBC43B1). Alternatively, you can grab the latest master branch from [GitHub](https://github.com/Hjdskes/cage). Note that Cage is developed against the latest tag of wlroots, in order to not constantly chase breaking changes as soon as they occur.
 
 Cage is built with the [meson](https://mesonbuild.com/) build system. It requires wayland, wlroots and xkbcommon to be installed. Simply execute the following steps to build Cage:
 
