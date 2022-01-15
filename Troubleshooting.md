@@ -1,8 +1,8 @@
 # Troubleshooting
 
-When you have an issue with Cage, please update both Cage and wlroots and then try again. It may be that a newer version has already fixed your problem. If not, look through [known issues in Cage](https://github.com/Hjdskes/cage/issues) and [known issues in wlroots](https://github.com/swaywm/wlroots/issues). Read this Wiki and ensure the solution to your problem isn't already described somewhere.
+When you have an issue with Cage, please update both Cage and wlroots and then try again. It may be that a newer version has already fixed your problem. If not, look through [known issues in Cage](https://github.com/Hjdskes/cage/issues) and [known issues in wlroots](https://github.com/swaywm/wlroots/issues). Read this Wiki and ensure the solution to your problem isn't already described somewhere. If this Wiki doesn't describe your problem, [Sway's Wiki](https://github.com/swaywm/sway/wiki#troubleshooting) also lists many common problems. 
 
-For any issue that doesn't directly relate to Cage (i.e., is an application using Wayland or XWayland, or application settings), please don't open an issue. [Sway's wiki](https://github.com/swaywm/sway/wiki#faq) contains some frequently asked questions, but please don't open an issue on Sway's bug tracker either.
+For any issue that doesn't directly relate to Cage (i.e., is an application using Wayland or XWayland, or application settings), please don't open an issue. Please don't open an issue on Sway's bug tracker either.
 
 ## How do I report issues?
 
