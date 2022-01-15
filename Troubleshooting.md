@@ -32,3 +32,12 @@ KERNEL=="event[0-9]", SUBSYSTEM=="input", ATTRS{name}=="FT5406 memory based driv
 
 This requires you to know the path in `/dev` of your input device and the name of your output device. The latter is printed by Cage (look for a log line "Scanning DRM connectors"), the former requires a bit of experimenting 
 with devices listed under `/dev/input/`. In the case of the FT5406 touchscreen, there are little properties to match on besides the name. If your device has more properties, you can match on those as well.
+
+## Cage does not start without any input devices
+
+The default behavior of wlroots' libinput backend is to fail when there are no input devices. To disable this behavior, set the `WLR_LIBINPUT_NO_DEVICES` to `1` before launching Cage: `WLR_LIBINPUT_NO_DEVICES=1 cage /path/to/application`. You can also add this to the systemd service file:
+
+```ini
+[Service]
+Environment=WLR_LIBINPUT_NO_DEVICES=1
+```
