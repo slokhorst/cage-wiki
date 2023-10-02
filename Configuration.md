@@ -6,7 +6,7 @@ There is no configuration for Cage, other than command line arguments on startup
 
 ## Display configuration
 
-Cage manages displays for you, and currently there is no way of changing this configuration. Cage spans application windows across the bounding box of the output layout. If the output layout does not fill this bounding box, then parts of the application will be drawn outside of your displays and therefore be hidden:
+Cage manages displays for you, and the configuration can be updated via the wlr-output-management Wayland protocol. Cage spans application windows across the bounding box of the output layout. If the output layout does not fill this bounding box, then parts of the application will be drawn outside of your displays and therefore be hidden:
 
 ```
 +---------------------------------+---------------------------------------+
@@ -28,10 +28,6 @@ Cage manages displays for you, and currently there is no way of changing this co
 |                                 |                                       |
 +---------------------------------+---------------------------------------+
 ```
-
-### Display rotation 
-
-Cage's `-r` option will rotate the output 90 degrees clockwise. This option can be specified multiple times, each resulting in an additional 90 degrees clockwise rotation.
 
 ## Environment variables
 
