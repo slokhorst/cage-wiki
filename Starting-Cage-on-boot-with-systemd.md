@@ -64,7 +64,7 @@ session        required        pam_unix.so
 session        required        pam_systemd.so
 ```
 
-Third, enable an instantiated service either with `systemctl enable cage@tty1.service` (or any other TTY) or by creating a symlink into `etc/systemd/system/graphical.target.wants/` with `ln -s /etc/systemd/system/cage@service /etc/systemd/system/graphical.target.wants/cage@tty1.service` (or any other TTY).
+Third, enable an instantiated service either with `systemctl enable cage@tty1.service` (or any other TTY) or by creating a symlink into `etc/systemd/system/graphical.target.wants/` with `ln -s /etc/systemd/system/cage@.service /etc/systemd/system/graphical.target.wants/cage@tty1.service` (or any other TTY).
 
 Finally, change systemd's default target to the graphical target. Either run `systemctl set-default graphical.target` or create a symlink yourself with `ln -s /etc/systemd/system/default.target /usr/lib/systemd/system/graphical.target`.
 
